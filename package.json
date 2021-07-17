@@ -1,0 +1,23 @@
+{
+  "name": "hoc_node",
+  "version": "1.0.0",
+  "description": "hoc node http,https等底层代码",
+  "main": "index.js",
+  "directories": {
+  },
+  "scripts": {
+    "start": "cd examples && node bin/run",
+    "nodemon": "NODE_ENV=debug ./node_modules/.bin/nodemon --watch ./src --exec npm run build-koa",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duheng/hoc_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duheng/hoc_node/issues"
+  },
+  "homepage": "https://github.com/duheng/hoc_node#readme"
+}
